@@ -7,7 +7,7 @@
  * -1 and prints - if n is less than zero
  */
 int print_sign(int n)
-{	
+{
 	if (n > 0)
 	{
 	_putchar(43);
@@ -17,7 +17,7 @@ int print_sign(int n)
 	{
 	_putchar(45);
 	return (-1);
-	} 
+	}	
 	else
 	{
 	_putchar(48);
